@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\OOP_repos\6_laba\ooplab6_u-YuraStaiL\OOPLab6T\</FILEPATH>
+      <FILENAME>Example2.cpp</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>SpaceExample2::ArithmeticProgression::progressionSum</FUNCTION>
+    <DECORATED>?progressionSum@ArithmeticProgression@SpaceExample2@@UEAANH@Z</DECORATED>
+    <FUNCLINE>31</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
